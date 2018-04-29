@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c63e1373-6a8e-485a-a27c-3f6165a08db8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/111.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/.idea/Tencent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/.idea/dictionaries/hrj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/Tencent/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/Tencent/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/Tencent/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/Tencent/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/Tencent/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/Tencent/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/Tencent/spiders/tencentPosition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/scrapy.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/tencent.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/Tencent/tencent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/dictionaries/hrj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecs/.idea/aliyunSDK.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecs/.idea/dictionaries/hrj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecs/111.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecs/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,6 +20,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/aliyunSDK$test.coverage" NAME="test Coverage Results" MODIFIED="1524998432822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aliyunSDK$create_ecs.coverage" NAME="create_ecs Coverage Results" MODIFIED="1525003199807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ecs" />
     <SUITE FILE_PATH="coverage/aliyunSDK$111.coverage" NAME="111 Coverage Results" MODIFIED="1525000149546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ecs" />
   </component>
   <component name="DatabaseView">
@@ -51,7 +38,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="create_ecs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecs/create_ecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#25#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,6 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/111.py" />
+        <option value="$PROJECT_DIR$/ecs/111.py" />
+        <option value="$PROJECT_DIR$/ecs/create_ecs.py" />
       </list>
     </option>
   </component>
@@ -83,7 +85,9 @@
     <option name="width" value="1561" />
     <option name="height" value="932" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -95,6 +99,11 @@
             <path>
               <item name="aliyunSDK" type="b2602c69:ProjectViewProjectNode" />
               <item name="aliyunSDK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aliyunSDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aliyunSDK" type="462c0819:PsiDirectoryNode" />
+              <item name="ecs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aliyunSDK" type="b2602c69:ProjectViewProjectNode" />
@@ -127,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.111">
+  <component name="RunManager" selected="Python.create_ecs">
     <configuration name="111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aliyunSDK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,6 +151,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecs/111.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="create_ecs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="aliyunSDK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecs/create_ecs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,9 +197,11 @@
     <list>
       <item itemvalue="Python.test" />
       <item itemvalue="Python.111" />
+      <item itemvalue="Python.create_ecs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_ecs" />
         <item itemvalue="Python.111" />
         <item itemvalue="Python.test" />
       </list>
@@ -192,17 +222,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="32" width="1561" height="932" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32934132" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30419162" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25938118" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30419162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13561554" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32982224" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32982224" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32982224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -246,6 +277,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/111.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecs/.idea/dictionaries/hrj.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecs/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecs/111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecs/create_ecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
